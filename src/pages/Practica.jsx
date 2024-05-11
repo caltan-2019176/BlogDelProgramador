@@ -12,7 +12,7 @@ export const Practica = () => {
       description: 'Agenda web',
       habilidades: 'Generar un toDoList, uso de html, css y javascript para la parte de contactos.',
       link: 'https://cetkinal-my.sharepoint.com/:f:/g/personal/caltan-2019176_kinal_edu_gt/EslVq---eLRCqUtX43zQTYsBDPa5bvMj60uuLmT_lcvZog?e=QZwaFO',
-      imagen: 'https://cetkinal-my.sharepoint.com/personal/caltan-2019176_kinal_edu_gt/Documents/2024/BlogTaller/Practica/lab1.png'
+      imagen: '/resources/lab1.png'
     },
     {
       id: 2,
@@ -20,7 +20,7 @@ export const Practica = () => {
       description: 'Contol ácademico',
       habilidades: 'Uso de nodeJs, jwt, mongoose, bcrypt, uso de roles, CRUD con javaScript',
       link: 'https://github.com/caltan-2019176/ControlAcademicoIN6AM.git',
-      imagen: 'https://cetkinal-my.sharepoint.com/personal/caltan-2019176_kinal_edu_gt/Documents/2024/BlogTaller/Practica/controlacade.png'
+      imagen: '/resources/controlacade.png'
     },
     {
       id: 3,
@@ -28,7 +28,7 @@ export const Practica = () => {
       description: 'Gestor de opiniones',
       habilidades: 'Uso de Node.js, Express, MongoDB, uso de login, aplicación de middlewares ',
       link: 'https://github.com/caltan-2019176/GestorOpiniones.git',
-      imagen: 'https://cetkinal-my.sharepoint.com/personal/caltan-2019176_kinal_edu_gt/Documents/2024/BlogTaller/Practica/gestoOpo.png'
+      imagen: '/resources/gestoOpo.png'
     }
   ]
   const tareasPractica2 = [
@@ -38,7 +38,7 @@ export const Practica = () => {
       description: 'Exposición de aplicaciones híbridos',
       habilidades: 'Caracteristicas y usos de frameworks para aplicaciones hibridas, caracteristicas, beneficios de estas.',
       link: 'https://www.canva.com/design/DAGBVuvVB8M/hWucg4qcIkCUjg5xK4dsBA/edit?utm_content=DAGBVuvVB8M&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton',
-      imagen: 'https://cetkinal-my.sharepoint.com/personal/caltan-2019176_kinal_edu_gt/Documents/2024/BlogTaller/Practica/ionic.png'
+      imagen: '/resources/ionic.png'
     },
     {
       id: 2,
@@ -46,8 +46,9 @@ export const Practica = () => {
       description: 'App con backend y frontend con react de una almacenadora',
       habilidades: 'Uso de react para le creacion del frontend con cnoexion a base de datos. NOTA: debes de aceptar la invitación a la organización de github',
       link: 'https://github.com/Grupo-7-IN6AM/AlmacenadoraIN6AM-G7-React.git',
-      imagen: 'https://cetkinal-my.sharepoint.com/personal/caltan-2019176_kinal_edu_gt/Documents/2024/BlogTaller/Practica/almca.png'
+      imagen: '/resources/almca.png'
     }
+
   ]
   return (
     <div> 

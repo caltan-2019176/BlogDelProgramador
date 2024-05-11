@@ -3,7 +3,7 @@ import { Navbar } from '../components/Navbar'
 import { Footers } from '../components/Footers'
 import './tecnologia.css'
 import { Tarea } from '../components/Tarea'
-
+//import './../../public/resources/infografiaTecno.png'
 export const Tecnologia = () => {
   const tareasTecno1 = [
     {
@@ -12,7 +12,7 @@ export const Tecnologia = () => {
       description: 'Infografía sobre preprocesadores y terminos de desarrollo web',
       habilidades: 'Conocimiento sobre terminos como: HTML, CSS, Bootstrap, SSAS, LESS, etc.',
       link: 'https://www.canva.com/design/DAF6qVgsRgA/OCApPsDUMNESXxx3PNY0Uw/edit?utm_content=DAF6qVgsRgA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton',
-      imagen: 'https://cetkinal-my.sharepoint.com/personal/caltan-2019176_kinal_edu_gt/Documents/2024/BlogTaller/Tecnologia/1BIM/Info%20tecno%20desarrollo%20web.png'
+      imagen: '/resources/infografiaTecno.png'
     },
     {
       id: 2,
@@ -28,7 +28,7 @@ export const Tecnologia = () => {
       description: 'Cuestionario acerca de las tareas de infografía y mapa conceptual',
       habilidades: 'Repaso sobre conocimientos de tecnologías web y código javascript.',
       link: 'https://cetkinal-my.sharepoint.com/:b:/g/personal/caltan-2019176_kinal_edu_gt/ETHPF22IkplHoxesffIAD6UBIZDx1q6ZqDqm52ZRkeOw_g?e=prJkjC',
-      imagen: 'https://cetkinal-my.sharepoint.com/personal/caltan-2019176_kinal_edu_gt/Documents/2024/BlogTaller/Tecnologia/1BIM/prueba%20objetiva.png'
+      imagen: '/resources/prueba objetiva.png'
     },
     {
       id: 4,
@@ -43,7 +43,7 @@ export const Tecnologia = () => {
       description: 'Prueba sobre los conocimientos de bimestre',
       habilidades: 'Conocimientos de javascript, nodeJs, programación web.',
       link: 'https://cetkinal-my.sharepoint.com/personal/caltan-2019176_kinal_edu_gt/Documents/2024/BlogTaller/Tecnologia/1BIM/prueba2.png',
-      imagen: 'https://cetkinal-my.sharepoint.com/personal/caltan-2019176_kinal_edu_gt/Documents/2024/BlogTaller/Tecnologia/1BIM/prueba2.png'
+      imagen: '/resources/prueba2.png'
     }
 
   ]
@@ -54,7 +54,7 @@ export const Tecnologia = () => {
       description: 'Infografía sobre Beneficios de React',
       habilidades: 'Conocimientos acerca de ract, caracteristicas, diseños, Compatibilidad, etc..',
       link: 'https://www.canva.com/design/DAGBgHoxmgc/TVT30ReM-ikpV_k6wIZ9Qw/edit?utm_content=DAGBgHoxmgc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton',
-      imagen: 'https://cetkinal-my.sharepoint.com/personal/caltan-2019176_kinal_edu_gt/Documents/2024/BlogTaller/Tecnologia/1BIM/beneficios%20de%20react.png'
+      imagen: '/resources/infografiaTecno.png'
     },
     {
       id: 2,
@@ -70,7 +70,7 @@ export const Tecnologia = () => {
       description: 'Exposición acerca del proyecto propuesto',
       habilidades: 'Exponer la propuesta, sus funciones, modelos, caracteristicas, etc.',
       link: 'https://www.canva.com/design/DAGDAw_qqd8/HGuyQXKkLkQdPGfw7TCxbA/edit',
-      imagen: 'https://cetkinal-my.sharepoint.com/personal/caltan-2019176_kinal_edu_gt/Documents/2024/BlogTaller/Tecnologia/1BIM/expo%20de%20proyecto.png'
+      imagen: '/resources/expo de proyecto.png'
     },
     {
       id: 4,
