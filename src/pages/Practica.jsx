@@ -67,7 +67,7 @@ export const Practica = () => {
               uso del lenguaje de programación Javascript, esto implica que el estudiante tendrá la capacidad de
               poder instalar y configurar un Web Api, una página web, conjunto a la capacidad de conectar sus
               aplicaciones a bases de datos NoSQL y conexión en la nube.
-              Contacto: josuenoj@kinal.org.gt
+             
             </p>
           </div>
         </div>
