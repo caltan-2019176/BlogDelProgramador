@@ -68,7 +68,7 @@ export const Taller = () => {
       titulo: 'Blog',
       description: 'Blog del programador con las tareas de todo el año',
       habilidades: 'Uso de react, componentes, uso de html y css.',
-      link: '',
+      link: 'https://github.com/caltan-2019176/BlogDelProgramador.git',
       imagen: 'https://cetkinal-my.sharepoint.com/personal/caltan-2019176_kinal_edu_gt/Documents/2024/BlogTaller/Taller/proyecBim.png'
     }
 
@@ -79,6 +79,21 @@ export const Taller = () => {
       <section className="inicio-taller">
         <h1>Taller</h1>
       </section>
+      <div className='intro'>
+        <div className='container'>
+          <div className='textIntro'>
+            <h2>Taller III</h2>
+            <p>EI curso de Taller III pretende implementar proyectos y actividades que enfoquen al alumno a un
+              ambiente práctico de la programación.
+              En este curso el estudiante tendrá la capacidad de desarrollar aplicaciones con tecnología Web y móvil,
+              mediante los conocimientos tanto teóricos como prácticos de Node.js, ReactJs, Railway y utilizando el
+              lenguaje de programación JavaScript, esto implica que el estudiante tendrá la capacidad de poder
+              instalar y configurar un Web Api, una página web, conjunto a la capacidad de conectar sus aplicaciones
+              a bases de datos NoSQL y conexión en la nube.
+            </p>
+          </div>
+        </div>
+      </div>
       <div className='cardss'>
         <div className="bimestre-container">
           <div className="bimestre-title">Bimestre 1</div>

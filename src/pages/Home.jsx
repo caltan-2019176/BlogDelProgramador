@@ -17,7 +17,7 @@ export const Home = () => {
           <div className='textIntro'>
           <h2>El blog del programador</h2>
           <p>Bienvenido al Blog del programador, Soy Carlos Altán estudiante
-             de 6to perito en informática, en está blog encontrarás mis 
+             de 6to perito en informática, en este blog encontrarás mis 
              trabajos y tareas realizadas a lo largo de este año de 
              estudios académicos.</p>
              <br />

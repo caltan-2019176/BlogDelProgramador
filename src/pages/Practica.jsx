@@ -44,7 +44,7 @@ export const Practica = () => {
       id: 2,
       titulo: 'Almacenadora',
       description: 'App con backend y frontend con react de una almacenadora',
-      habilidades: 'Uso de react para le creacion del frontend con cnoexion a base de datos',
+      habilidades: 'Uso de react para le creacion del frontend con cnoexion a base de datos. NOTA: debes de aceptar la invitación a la organización de github',
       link: 'https://github.com/Grupo-7-IN6AM/AlmacenadoraIN6AM-G7-React.git',
       imagen: 'https://cetkinal-my.sharepoint.com/personal/caltan-2019176_kinal_edu_gt/Documents/2024/BlogTaller/Practica/almca.png'
     }
@@ -55,6 +55,22 @@ export const Practica = () => {
       <section className="inicio-practica">
         <h1>Práctica supervisada</h1>
       </section>
+      <div className='intro'>
+        <div className='container'>
+          <div className='textIntro'>
+            <h2>Práctica Supervisada</h2>
+            <p>EI curso de Práctica supervisada pretende unir las areas de Taller III y Tecnología III, dándole un enfoque
+              más externo, y acercado a la realidad de la industria Tecnoloógica.
+              En este curso el estudiante tendrá la capacidad de desarrollar aplicaciones con tecnología Web y móvil,
+              mediante los conocimientos tanto teóricos como prácticos de Node.js, ReactJs, Railway, así como hacer
+              uso del lenguaje de programación Javascript, esto implica que el estudiante tendrá la capacidad de
+              poder instalar y configurar un Web Api, una página web, conjunto a la capacidad de conectar sus
+              aplicaciones a bases de datos NoSQL y conexión en la nube.
+              Contacto: josuenoj@kinal.org.gt
+            </p>
+          </div>
+        </div>
+      </div>
       <div className='cardss'>
         <div className="bimestre-container">
           <div className="bimestre-title">Bimestre 1</div>
