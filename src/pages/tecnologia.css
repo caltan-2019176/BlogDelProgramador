@@ -1,0 +1,52 @@
+.inicio-tecno {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 80vh;
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("https://www.geekno.com/wp-content/uploads/2018/03/desarrollo-de-videojuegos-sin-programacion.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.inicio-tecno h1 {
+    color: white;
+}
+
+
+.bimestre-container {
+    margin-bottom: 20px;
+    text-align: center;
+
+    /* Centrar el texto del contenedor */
+}
+
+/* Estilo para el título del bimestre */
+.bimestre-title {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+    /* Asegura que el título ocupe todo el ancho del contenedor */
+}
+
+/* Estilo para el contenedor de las tareas */
+.tareas-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.bimestre-2 {
+    background-color: #eaeaea;
+    /* Color de fondo diferente para el segundo contenedor */
+}
+.cardss{
+    background-color: #eaeaea;
+}

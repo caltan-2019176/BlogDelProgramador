@@ -1,0 +1,63 @@
+.inicio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 80vh;
+    background-image: linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.5), 
+        rgba(0,0,0,0.5)
+    )
+    ,url("https://www.ceupe.com/images/easyblog_articles/3583/b2ap3_large_profesion-de-programador-web.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.inicio h1{
+    color: white;
+}
+
+.intro .container{
+    text-align: center;
+    padding: 90px 10px;
+
+}
+.intro h2{
+    color: #381785;
+}
+
+.intro .textIntro{
+    text-align: justify;
+}
+@media (min-width: 750px) {
+
+
+    .intro .container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .intro .textIntro{
+        width: 50%;
+        text-align: initial;
+        max-width: 600px;
+        padding-left: 30px;
+        padding: 0px 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: justify;
+    }
+
+    .intro .img-container{
+        padding: 15px;
+        background-image: url("../../public/resources/imgAct.jpeg") ;
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 450px;
+        border-radius: 60%;
+    } 
+}

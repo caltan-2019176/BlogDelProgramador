@@ -1,0 +1,20 @@
+.inicio-taller{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 80vh;
+    background-image: linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.5), 
+        rgba(0,0,0,0.5)
+    )
+    ,url("https://icorp.com.mx/wp-content/uploads/2023/01/Dia-del-programador-e-informatico-copia.webp") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.inicio-taller h1{
+    color: white;
+}
